@@ -1,7 +1,6 @@
-
 class Customer{
    private int customerNo;
-   private static int totalCustomer;
+   private static int newCustomer;
    private int nooftimes;
    public Customer(){
       ++totalCustomer;
