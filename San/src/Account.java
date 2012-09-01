@@ -8,7 +8,7 @@ private double balance;
  {
  // validate that initialBalance is greater than 0.0;
  // if it is not, balance is initialized to the default value 0.0
- if ( initialBalance > 0.0 )
+ if ( initialBalance > 100 )
  balance = initialBalance;
  }
 
